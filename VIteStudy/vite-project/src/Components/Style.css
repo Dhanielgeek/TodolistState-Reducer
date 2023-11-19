@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Hold{
+    width: 100%;
+    height: 100vh;
+    /* background: #000; */
+}
+.HoldHeader{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.HoldHeader input {
+    width: 40%;
+    height: 40px;
+    padding-inline: 10px;
+}
+.HoldHeader textarea{
+    width: 30%;
+    padding-inline: 10px;
+}
+.HoldHeader button{
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.HoldContainer{
+    width: 100%;
+    height: 90%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HoldWrapper{
+    width: 90%;
+    height: 90%;
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Card{
+    width: 20.5%;
+    height: 45%;
+    background: white;
+    margin: 1% 5px;
+}
+.cardHeader{
+    width: 100%;
+    height: 20%;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.cardHeader h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.cardHeader span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: red;
+    transform: scale(1);
+    cursor: pointer;
+}
+.cardHeader span:hover{
+    transition: all 350ms ease-out;
+    transform: scale(1.5);
+}
+.content{
+    width: 100%;
+    height: 60%;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.datehold{
+    width: 100%;
+    height: 20%;
+    background: sandybrown;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.TodoHold{
+    width: 100%;
+    height: 100vh;
+    /* background: #023E8A; */
+    background: #000814;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TodoContainer{
+    width: 50%;
+    height: 80%;
+    background: white;
+    border-radius: 20px;
+}
+.TodoHeader{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.TodoHeader input{
+    width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    outline: none;
+    border: 3px solid #003566;
+    
+    background: transparent;
+    padding-inline: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.TodoHeader button{
+    padding: 10px 20px;
+    font-size: 19px;
+    color: white;
+    /* background: #00B4D8; */
+    background: #003566;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 350ms ease-in-out;
+}
+.TodoHeader button:hover{
+    transform: scale(1.1);
+}
+.TodoTask{
+  width: 100%;
+  height: 80%;
+  padding-inline: 20px;
+  overflow-y: auto;
+
+}
+.Task{
+   width: 100%;
+   height: 60px;
+   border: 2px solid lightgray;
+   margin-top: 10px;
+   /* background: #caf0f8; */
+   background: #003566;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-inline: 20px;
+   border-radius: 10px;
+}
+.Task p{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.Tasklist{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check input {
+    width: 30%;
+    height: 60%;
+}
+.deleteBtn{
+    width: 30%;
+    height: 80%;
+    /* background: #0f105e; */
+    background: #000814;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: red;
+   font-size: 23px;
+   border-radius: 7px;
+   cursor: pointer;
+}
+.Edit{
+    width: 30%;
+    height: 80%;
+    /* background: #0f105e; */
+    background: green;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 23px;
+   border-radius: 7px;
+   cursor: pointer;
+}
+.functionBtn {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.reduce{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    width: 40%;
+    height: 40%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.count{
+    font-size: 28px;
+}
+.section button{
+    padding: 10px 20px;
+    font-size: 19px;
+    color: white;
+    /* background: #00B4D8; */
+    background: #003566;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 350ms ease-in-out;
+}
+.section .de{
+    padding: 10px 20px;
+    font-size: 19px;
+    color: white;
+    /* background: #00B4D8; */
+    background: #780000;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 350ms ease-in-out; 
+}
+@media screen and (max-width:320px) {
+
+    .TodoContainer{
+        width: 90%;
+    }
+    .TodoHeader button{
+        padding: 10px 10px;
+    }
+}
